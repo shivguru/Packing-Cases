@@ -13,36 +13,35 @@ and ya < yb. Please remember that a case can be rotated to t that restriction.
 Lea now has to gure out whether it is possible to reach the desired height if she stacks
 the cases optimally, or not.
 
-Input
+#Input
 The first line of the input contains an integer t. t test cases follow, each of them separated
 by a blank line.
 Each test case starts with two integers, h and n, the height the tower should reach and
 the number of case types, n lines follow. The i-th line describes the i-th case layout and
 contains three integers xi; yi; zi. Lea has exactly 5 Boxes of each type at her disposal.
 
-Output
-For each test case, output one line containing \Case #i: x"where i is its number, starting
-at 1, and x is either \yes" if Lea can build a tower of height at least h according to the
-constraints, or \no" if it is not possible to do so. Each line of the output should end with
+#Output
+For each test case, output one line containing \"Case #i: x\" where i is its number, starting
+at 1, and x is either "yes" if Lea can build a tower of height at least h according to the
+constraints, or "no" if it is not possible to do so. Each line of the output should end with
 a line break.
 
-Constraints
- 1 <= t <= 20
- 1 <= n <= 1000
- 1 <= xi, yi, zi <= 40000
- 1 <= h <= 5 * 10^6
+#Constraints 
+1 \<= t \<= 20 <br />
+1 \<= n \<= 1000 <br />
+1 \<= xi, yi, zi \<= 40000 <br />
+1 \<= h \<= 5 * 10^6 <br />
 
 #Sample Data: 
-Input
-2
-9 1
-5 4 3
-
-7 2
-4 2 2
-3 1 5
-
-Output
-Case #1: no
-Case #2: yes
-9
+Input <br />
+2 <br />
+9 1 <br />
+5 4 3 <br />
+<br />
+7 2 <br />
+4 2 2 <br />
+3 1 5 <br />
+<br />
+Output <br />
+Case #1: no <br />
+Case #2: yes <br />
